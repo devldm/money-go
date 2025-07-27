@@ -1,0 +1,6 @@
+version: "3.8"
+services:
+  money-go:
+    build: .
+    ports:
+      - "50051:50051"
